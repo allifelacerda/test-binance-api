@@ -1,8 +1,8 @@
 # doc - https://python-binance.readthedocs.io/en/latest/index.html
-from keys import api_key, api_secret
-from binance.client import Client
 import json
 from time import sleep
+from binance.client import Client
+from keys import api_key, api_secret
 
 SYMBOL = 'BTCUSDT'
 client = Client(api_key, api_secret)
